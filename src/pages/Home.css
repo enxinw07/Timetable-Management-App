@@ -1,0 +1,83 @@
+.e-schedule .e-appointment-details {
+    padding: 0 !important;
+}
+.event-template.e-schedule .e-vertical-view .e-content-wrap .e-appointment,
+.event-template.e-schedule .e-timeline-view .e-content-wrap .e-appointment {
+  border-radius: 8px;
+}
+.notification-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.3rem;
+  font-size: 0.7rem;
+  position:relative;
+  top: 5px;
+  right: -3px;
+}
+
+.event-template.e-schedule .e-vertical-view .e-content-wrap .e-appointment .e-appointment-details {
+  padding: 0;
+  height: 100%;
+  display: flex;
+}
+
+.event-template.e-schedule .template-wrap {
+  height: 100%;
+  white-space: normal;
+}
+
+
+.event-template.e-schedule .template-wrap .subject {
+  font-weight: 600;
+  font-size: 15px;
+  height: 25px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  /* padding-left: 15px; */
+}
+
+.event-template.e-schedule .template-wrap .time {
+  height: 50px;
+}
+
+.event-template.e-schedule .template-wrap .time,
+.event-template.e-schedule .template-wrap .event-description {
+  font-size: 12px;
+  padding: 4px 6px 4px;
+  overflow: hidden;
+}
+
+.event-template.e-schedule .template-wrap .footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+}
+
+.event-template.e-schedule .e-timeline-view .e-appointment .e-appointment-details {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.event-template.e-schedule .e-timeline-view .template-wrap {
+  width: 100%;
+}
+
+.event-template.e-schedule .e-timeline-view .template-wrap .subject {
+  font-size: 16px;
+  height: 36px;
+  text-align: center;
+}
+
+.template-wrap {
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 100%;
+    font-size: 14px;
+    font-weight: 500;
+}
